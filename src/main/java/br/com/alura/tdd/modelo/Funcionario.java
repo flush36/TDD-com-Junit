@@ -34,7 +34,7 @@ public class Funcionario {
 	}
 
 	private void arredondarSalario() {
-		this.salario = this.salario.setScale(2, RoundingMode.HALF_UP)
+		this.salario = this.salario.setScale(2, RoundingMode.HALF_UP);
 	}
 
 }
